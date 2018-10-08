@@ -32,7 +32,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ['stockclapper9000.com', # Public website
-                 '192.168.31.181'        # Internal IP for testing
 ]
 
 STATIC_ROOT = os.path.join( BASE_DIR, "static/")
